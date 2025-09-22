@@ -1,4 +1,4 @@
-const ENDING_VIDEO_ID = "ENDING_VIDEO_ID"; // replace with your YouTube video ID
+const ENDING_VIDEO_ID = "44NVVQoPBd8"; // replace with your YouTube video ID
 const ACCEPTS = ["withp25"];
 
 const input = document.getElementById("answer");
