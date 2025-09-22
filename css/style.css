@@ -1,0 +1,85 @@
+body {
+  background: url("../img/map.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #eee;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.wrap {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.card {
+  background: rgba(26, 26, 26, 0.85);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,.4);
+}
+
+h1 { color: #ff3b3b; }
+
+.lead {
+  padding: 10px 14px;
+  border: 1px dashed #444;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.video {
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin: 10px 0;
+}
+.video iframe { width: 100%; height: 100%; border: 0; border-radius: 12px; }
+
+.input {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #000;
+  color: #fff;
+}
+button {
+  background: #ff3b3b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.msg { margin-top: 8px; font-size: 14px; color: #aaa; }
+.msg.ok { color: #66ffb3; }
+
+.modal {
+  position: fixed; inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,.7);
+}
+.modal.open { display: flex; }
+.modal-box {
+  width: 90%;
+  max-width: 900px;
+  aspect-ratio: 16/9;
+  position: relative;
+}
+.modal-box iframe {
+  width: 100%; height: 100%; border: 0; border-radius: 12px;
+}
+.close {
+  position: absolute; top: 10px; right: 10px;
+  background: #000a; color: #fff;
+  border: none; border-radius: 6px;
+  padding: 5px 10px; cursor: pointer;
+}

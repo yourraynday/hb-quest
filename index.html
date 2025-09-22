@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Treasure Quest – hb-quest</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Somewhere on this map, fate is calling.</h1>
+      <div class="lead">Notes from our journey: four clues, one answer. Solve it and the path opens.</div>
+
+      <!-- Opening Movie -->
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/OPENING_VIDEO_ID?rel=0"
+          allowfullscreen></iframe>
+      </div>
+
+      <div class="input">
+        <input id="answer" type="text" placeholder="Enter the secret word…" />
+        <button id="submit">Unlock</button>
+      </div>
+      <div id="msg" class="msg"></div>
+    </div>
+  </div>
+
+  <!-- Ending Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-box">
+      <button class="close" id="closeBtn">✕</button>
+      <iframe id="endingFrame" src="" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
